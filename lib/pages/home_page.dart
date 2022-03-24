@@ -80,7 +80,8 @@ class _HomePageState extends State<HomePage> {
             ),
             Container(
               color: Colors.blue,
-              padding: EdgeInsets.all(10),
+              padding:
+              EdgeInsets.all(10),
               child: Container(
                 padding: EdgeInsets.all(10),
                 height: 80,
