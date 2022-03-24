@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_16/pages/detail_page.dart';
 import 'package:project_16/pages/home_page.dart';
+import 'package:project_16/pages/second_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,10 +17,11 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: DetailPage(),
+      home: SecondPage(),
       routes: {
         HomePage.id:(context)=>HomePage(),
-        DetailPage.id:(context)=>DetailPage()
+        DetailPage.id:(context)=>DetailPage(),
+        SecondPage.id:(context)=>SecondPage()
       },
     );
   }
